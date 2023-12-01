@@ -11,7 +11,7 @@ using static System.Net.WebRequestMethods;
 class Program
 {
     //private static readonly string downloadPath = @"~/randomwads";
-    private static readonly string downloadPath = Environment.GetFolderPath(System.Environment.SpecialFolder.UserProfile) + "randomwads";
+    private static readonly string downloadPath = Environment.GetFolderPath(System.Environment.SpecialFolder.UserProfile) + "/randomwads";
     private static readonly int[] contentsIds = [
         15, 32, 33, 65, 86, 90, 116, 162, 196, 326, //Doom ports (ports ????)
         21, 22, 28, 29, 34, 38, 99, 104, 130, 167, //Doom
